@@ -17,7 +17,7 @@ class Handler extends ExceptionHandler
 {
     use ApiResponser;
 /**
-* Render an exception into an HTTP response.
+* Render an exception into an HTTP response. 
 *
 * @param \Illuminate\Http\Request $request
 * @param \Throwable $exception

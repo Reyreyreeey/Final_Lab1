@@ -20,7 +20,7 @@ public function getUsers(){
 return $this->successResponse($users);
 }
 
-public function index()
+public function index() 
 {
     $users = User::all();
     return $this->successResponse($users);

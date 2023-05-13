@@ -10,6 +10,6 @@ class User extends Model{
         'lastname', 'firstname','middlename' ,'bday', 'age'
     ];
 
-    public $timestamps = false;
+    public $timestamps = false; 
     protected $primaryKey = 'studid';
 }

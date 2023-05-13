@@ -23,7 +23,7 @@ $router->get('/users',['uses' => 'UserController@getUsers']);
 
 });
 
-$router->get('/userss', 'UserController@index');// index
+$router->get('/userss', 'UserController@index');// index 
 
 $router->get('/users',['uses' => 'UserController@getallstud']); //get all users
 
@@ -33,4 +33,4 @@ $router->post('/auser', 'UserController@addstud'); // create new user record
 
 $router->put('/uuser/{id}', 'UserController@updatestudid'); // update user record
 
-$router->delete('/duser/{id}', 'UserController@deletestudid'); // delete record
+$router->delete('/duser/{id}',  'UserController@deletestudid'); // delete record
